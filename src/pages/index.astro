@@ -1,15 +1,21 @@
 ---
+import MainSection from "../components/MainSection.astro";
+import MainLayout from "../layouts/main-layout.astro";
+import { Image } from "astro:assets";
+import logo from './images/Real_Muziq_Group_Logo_White.png';
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout>
+<MainSection bgImg="bg-rmg-logo" >
+<Image src={logo} alt="real-muziq-logo" width='500' height={500/2} />
+</MainSection>
+<MainSection bgImg="bg-t_o" >
+    <h2 class="text-3xl">About</h2>
+    <p class="text-xl">Learn more About Real Muziq Group</p>
+    <a class="btn btn-secondary btn-outline btn-ghost" href="/about">About Page</a>
+</MainSection>
+<MainSection bgImg="bg-teezy" >
+    <h2 class="text-3xl">Artists</h2>
+    <p class="text-xl">Learn more About Real Muziq Group Artists</p>
+    <a class="btn btn-secondary btn-outline btn-ghost" href="/artists">Artists Page</a>
+</MainSection>
+</MainLayout>
