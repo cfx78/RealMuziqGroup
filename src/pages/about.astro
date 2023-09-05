@@ -1,0 +1,12 @@
+---
+import {getCollection} from 'astro:content';
+import MainLayout from '../layouts/main-layout.astro';
+import {Content} from '../content/about.md';
+
+---
+
+<MainLayout>
+    <article class=" my-28 mx-auto prose prose-xl">
+        <Content />
+    </article>
+</MainLayout>

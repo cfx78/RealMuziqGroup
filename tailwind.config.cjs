@@ -8,10 +8,12 @@ module.exports = {
 					'url(public/images/Real_Muziq_Group_Logo_White.png)',
 				t_o: 'url(public/images/t_o.jpg)',
 				teezy: 'url(public/images/teezy.jpg)',
+				smoke: 'url(public/images/smoke.jpg)',
+				studio: 'url(public/images/studio.jpg)',
 			},
 		},
 	},
-	plugins: [require('daisyui')],
+	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 	daisyui: {
 		themes: ['black'],
 	},
