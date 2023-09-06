@@ -4,12 +4,11 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'rmg-logo':
-					'url(public/images/Real_Muziq_Group_Logo_White.png)',
-				t_o: 'url(public/images/t_o.jpg)',
-				teezy: 'url(public/images/teezy.jpg)',
-				smoke: 'url(public/images/smoke.jpg)',
-				studio: 'url(public/images/studio.jpg)',
+				'rmg-logo': 'url(/images/Real_Muziq_Group_Logo_White.png)',
+				t_o: 'url(/images/t_o.jpg)',
+				teezy: 'url(/images/teezy.jpg)',
+				smoke: 'url(/images/smoke.jpg)',
+				studio: 'url(/images/studio.jpg)',
 			},
 		},
 	},

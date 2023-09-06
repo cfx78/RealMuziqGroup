@@ -1,0 +1,24 @@
+self.__RSC_CSS_MANIFEST={
+  "__entry_css_mods__": {
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\app\\page": [
+      "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\styles\\globals.css",
+      "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\node_modules\\.pnpm\\next@13.2.4_@babel+core@7.22.15_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\app\\preview\\[slug]\\page": [
+      "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\styles\\globals.css",
+      "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\node_modules\\.pnpm\\next@13.2.4_@babel+core@7.22.15_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}"
+    ]
+  },
+  "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\app\\page.tsx": [
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\node_modules\\.pnpm\\next@13.2.4_@babel+core@7.22.15_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\styles\\globals.css"
+  ],
+  "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\app\\layout.tsx": [
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\node_modules\\.pnpm\\next@13.2.4_@babel+core@7.22.15_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\styles\\globals.css"
+  ],
+  "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\app\\preview\\[slug]\\page.tsx": [
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\node_modules\\.pnpm\\next@13.2.4_@babel+core@7.22.15_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-inter\"}],\"variableName\":\"inter\"}",
+    "C:\\Users\\corte\\Documents\\GitHub\\RealMuziqGroup\\.react-email\\src\\styles\\globals.css"
+  ]
+}
