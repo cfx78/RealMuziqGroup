@@ -10,7 +10,12 @@ import {
 	Text,
 } from '@react-email/components';
 
-const Email = (props) => {
+type Props = {
+	name: string;
+	email: string;
+	message: string;
+};
+const Email = ({ name, email, message }: Props) => {
 	return (
 		<Html lang='en'>
 			<Head>
@@ -31,13 +36,13 @@ const Email = (props) => {
 					<Hr className='my-4' />
 					<Section className='text-left'>
 						<Text>
-							<strong>Name:</strong> {props.name}
+							<strong>Name:</strong> {name}
 						</Text>
 						<Text>
-							<strong>Email:</strong> {props.email}
+							<strong>Email:</strong> {email}
 						</Text>
 						<Text>
-							<strong>Message:</strong> {props.message}
+							<strong>Message:</strong> {message}
 						</Text>
 					</Section>
 				</Container>
