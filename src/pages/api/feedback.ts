@@ -23,7 +23,7 @@ export const POST: APIRoute = async ({ request }) => {
 	resend.emails.send({
 		from: 'onboarding@resend.dev',
 		to: 'cortez.foxx@icloud.com',
-		subject: 'Hello World',
+		subject: 'New Message From Real Muziq Website',
 		react: emailTemplate({ name, email, message }),
 	});
 

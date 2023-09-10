@@ -1,11 +1,15 @@
 // Date: 09/08/21
 
-import { useState } from 'react';
+import { useState, type FormEventHandler, type FormEvent } from 'react';
 import { useForm } from 'react-hook-form';
 
 import Email from '../emails';
 
 export default function Form() {
+	const [nameChecker, setNameChecker] = useState(false);
+	const [emailChecker, setEmailChecker] = useState(false);
+	const [messageChecker, setMessageChecker] = useState(false);
+
 	const {
 		register,
 		handleSubmit,
@@ -14,33 +18,31 @@ export default function Form() {
 	} = useForm({});
 	console.log(watch());
 
-	// const onSubmit = async (data: any) => {
-	// 	console.log('name', data.name);
-	// 	console.log('email', data.email);
-	// 	console.log('message', data.message);
-
-	// 	// Send email
-	// 	const emailData = {
-	// 		name: data.name,
-	// 		email: data.email,
-	// 		message: data.message,
-	// 	};
-
-	// 	const response = await fetch('/api/feedback', {
-	// 		method: 'POST',
-	// 		body: JSON.stringify(emailData),
-	// 	});
-	// 	const responseData = await response.json();
-	// 	console.log('responseData', responseData);
-	// 	if (responseData.message) {
-	// 		console.log('responseData', responseData.message);
-	// 	}
-	// };
 	const [responseMessage, setResponseMessage] = useState('');
 
-	async function submit(e: SubmitEvent) {
+	const submit = async (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
+
 		const formData = new FormData(e.target as HTMLFormElement);
+
+		if (formData.get('name') === '') {
+			setNameChecker(true);
+		} else {
+			setNameChecker(false);
+		}
+
+		if (formData.get('email') === '') {
+			setEmailChecker(true);
+		} else {
+			setEmailChecker(false);
+		}
+
+		if (formData.get('message') === '') {
+			setMessageChecker(true);
+		} else {
+			setMessageChecker(false);
+		}
+
 		const response = await fetch('/api/feedback', {
 			method: 'POST',
 			body: formData,
@@ -49,7 +51,7 @@ export default function Form() {
 		if (data.message) {
 			setResponseMessage(data.message);
 		}
-	}
+	};
 
 	return (
 		<div className='flex flex-col w-full lg:flex-row bg-base-300 mb-24'>
@@ -81,13 +83,10 @@ export default function Form() {
 							className='input input-bordered'
 							id='name'
 							name='name'
-							{...register('name', {
-								required: 'Sorry but your name is required',
-							})}
 						/>
-						{errors.name && (
+						{nameChecker && (
 							<p className='text-xs max-w-xs text-error mt-2'>
-								{errors.name?.message as string}
+								Please enter your name
 							</p>
 						)}
 					</div>
@@ -101,13 +100,10 @@ export default function Form() {
 							className='input input-bordered'
 							id='email'
 							name='email'
-							{...register('email', {
-								required: 'Sorry but your email is required',
-							})}
 						/>
-						{errors.email && (
+						{emailChecker && (
 							<p className='text-xs max-w-xs text-error mt-2'>
-								{errors.email?.message as string}
+								Please enter your email
 							</p>
 						)}
 					</div>
@@ -119,21 +115,28 @@ export default function Form() {
 							placeholder='Message'
 							className='textarea h-24 textarea-bordered'
 							id='message'
-							name='message'
-							{...register('message', {
-								required: 'Sorry but a message is required',
-							})}></textarea>
-						{errors.message && (
+							name='message'></textarea>
+						{messageChecker && (
 							<p className='text-xs max-w-xs text-error mt-2'>
-								{errors.message?.message as string}
+								Please enter your message
 							</p>
 						)}
 					</div>
+
 					<div className='card-actions justify-center'>
-						<button className='btn btn-primary btn-block mt-2 border-2 '>
+						<button
+							className='btn btn-primary btn-block mt-2 border-2 '
+							type='submit'>
 							submit
 						</button>
 					</div>
+					{responseMessage && (
+						<div className='toast  toast-end pb-32'>
+							<div className='alert alert-success'>
+								<span>{responseMessage}</span>
+							</div>
+						</div>
+					)}
 				</form>
 			</div>
 		</div>
