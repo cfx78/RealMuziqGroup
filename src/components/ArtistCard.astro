@@ -1,0 +1,43 @@
+---
+const {title, avatar,name, facebook, instagram, tiktok, twitter, youtube, spotify, appleMusic, logo } = Astro.props
+import {Sprite} from 'astro-icon'
+---
+
+
+<div class=`card max-w-7xl mx-auto bg-base-300 shadow-xl bg-center bg-no-repeat bg-contain bg-blend-overlay ${logo} border-4 rounded-lg`>
+  <div class="card-body">
+    <h2 class="card-title"><div class="avatar">
+  <div class="w-24 md:w-52 rounded-full ">
+    <img src={avatar} />
+  </div>
+</div><span class="text-5xl w-full pr-52 text-center">{name}</span></h2>
+    <div class="w-full text-3xl text-center pb-4">{title} </div>
+    <div class="card-actions justify-center gap-x-6">
+
+        <Sprite.Provider>
+            {facebook?  <a target="_blank" href={facebook}>
+                <Sprite name="simple-icons:facebook" class="h-6 w-6"  />
+            </a> : '' }
+            {instagram?  <a target="_blank" href={instagram}>
+                <Sprite name="simple-icons:instagram" class="h-6 w-6" />
+            </a>: '' }
+            {tiktok?  <a target="_blank" href={tiktok}>
+                <Sprite name="simple-icons:tiktok" class="h-6 w-6"  />
+            </a> : '' }
+            {twitter?  <a target="_blank" href={twitter}>
+                <Sprite name="simple-icons:twitter" class="h-6 w-6"  />
+            </a> : '' }
+            {youtube?  <a target="_blank" href={youtube}>
+                <Sprite name="simple-icons:youtube" class="h-6 w-6"  />
+            </a>: '' }
+            {spotify?  <a target="_blank" href={spotify}>
+                <Sprite name="simple-icons:spotify" class="h-6 w-6"  />
+            </a> : '' }
+            {appleMusic?  <a target="_blank" href={appleMusic}>
+                <Sprite name="simple-icons:applemusic" class="h-6 w-6"  />
+            </a> : '' }
+        </Sprite.Provider>
+
+    </div>
+  </div>
+</div>

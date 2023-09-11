@@ -9,6 +9,7 @@ module.exports = {
 				teezy: 'url(/images/teezy.jpg)',
 				smoke: 'url(/images/smoke.jpg)',
 				studio: 'url(/images/studio.jpg)',
+				'rmg-gospel': 'url(/images/RMG_Gospel_Logo_White.png)',
 			},
 		},
 	},
