@@ -1,7 +1,6 @@
 import type { APIRoute } from 'astro';
 import { render } from '@react-email/render';
 import { Resend } from 'resend';
-// import nodemailer from 'nodemailer';
 import emailTemplate from '../../emails/index.tsx';
 
 export const POST: APIRoute = async ({ request }) => {

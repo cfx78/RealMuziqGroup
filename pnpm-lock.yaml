@@ -29,9 +29,6 @@ dependencies:
   '@react-email/render':
     specifier: ^0.0.7
     version: 0.0.7
-  '@shopify/shopify-api':
-    specifier: ^7.6.0
-    version: 7.6.0
   '@types/react':
     specifier: ^18.0.21
     version: 18.2.21
@@ -44,9 +41,6 @@ dependencies:
   astro-icon:
     specifier: ^0.8.1
     version: 0.8.1
-  nodemailer:
-    specifier: ^6.9.5
-    version: 6.9.5
   react:
     specifier: ^18.0.0
     version: 18.2.0
@@ -56,9 +50,6 @@ dependencies:
   react-email:
     specifier: 1.9.4
     version: 1.9.4
-  react-hook-form:
-    specifier: ^7.46.1
-    version: 7.46.1(react@18.2.0)
   resend:
     specifier: ^1.0.0
     version: 1.0.0
@@ -70,9 +61,6 @@ devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
-  '@types/nodemailer':
-    specifier: ^6.4.9
-    version: 6.4.9
   daisyui:
     specifier: ^3.6.4
     version: 3.6.4
@@ -1471,25 +1459,6 @@ packages:
       selderee: 0.10.0
     dev: false
 
-  /@shopify/network@3.2.1:
-    resolution: {integrity: sha512-Ih/6Oe80dynlUsRfEqptWBfsySCqI0rjQvPAjS8HuWeK9nZ+TvmYScfxjucKXZ2deXwAClnU6SMdh3/B1lMMog==}
-    engines: {node: ^14.17.0 || >=16.0.0}
-    dev: false
-
-  /@shopify/shopify-api@7.6.0:
-    resolution: {integrity: sha512-XUyBkSrUHvqCknPdY3ylaGDyC3hA2aKmXTsbo7vpGzncMqC1hZ2pwRJbBMnffdbEWj14Um9zkEMS7MKf1k6PBw==}
-    dependencies:
-      '@shopify/network': 3.2.1
-      compare-versions: 5.0.3
-      isbot: 3.6.13
-      jose: 4.14.6
-      node-fetch: 2.7.0
-      tslib: 2.6.2
-      uuid: 9.0.0
-    transitivePeerDependencies:
-      - encoding
-    dev: false
-
   /@tailwindcss/typography@0.5.9(tailwindcss@3.3.3):
     resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}
     peerDependencies:
@@ -1574,12 +1543,7 @@ packages:
 
   /@types/node@12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
-
-  /@types/nodemailer@6.4.9:
-    resolution: {integrity: sha512-XYG8Gv+sHjaOtUpiuytahMy2mM3rectgroNbs6R3djZEKmPNiIJwe9KqOJBGzKKnNZNKvnuvmugBgpq3w/S0ig==}
-    dependencies:
-      '@types/node': 12.20.55
-    dev: true
+    dev: false
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2213,10 +2177,6 @@ packages:
 
   /common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
-    dev: false
-
-  /compare-versions@5.0.3:
-    resolution: {integrity: sha512-4UZlZP8Z99MGEY+Ovg/uJxJuvoXuN4M6B3hKaiackiHrgzQFEe3diJi1mf1PNHbFujM7FvLrK2bpgIaImbtZ1A==}
     dev: false
 
   /concat-map@0.0.1:
@@ -3290,11 +3250,6 @@ packages:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: false
 
-  /isbot@3.6.13:
-    resolution: {integrity: sha512-uoP4uK5Dc2CrabmK+Gue1jTL+scHiCc1c9rblRpJwG8CPxjLIv8jmGyyGRGkbPOweayhkskdZsEQXG6p+QCQrg==}
-    engines: {node: '>=12'}
-    dev: false
-
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: false
@@ -3305,10 +3260,6 @@ packages:
 
   /jju@1.4.0:
     resolution: {integrity: sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==}
-    dev: false
-
-  /jose@4.14.6:
-    resolution: {integrity: sha512-EqJPEUlZD0/CSUMubKtMaYUOtWe91tZXTWMJZoKSbLk+KtdhNdcvppH8lA9XwVu2V4Ailvsj0GBZJ2ZwDjfesQ==}
     dev: false
 
   /js-beautify@1.14.9:
@@ -4071,11 +4022,6 @@ packages:
 
   /node-releases@2.0.13:
     resolution: {integrity: sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==}
-    dev: false
-
-  /nodemailer@6.9.5:
-    resolution: {integrity: sha512-/dmdWo62XjumuLc5+AYQZeiRj+PRR8y8qKtFCOyuOl1k/hckZd8durUUHs/ucKx6/8kN+wFxqKJlQ/LK/qR5FA==}
-    engines: {node: '>=6.0.0'}
     dev: false
 
   /nopt@5.0.0:
@@ -5409,10 +5355,6 @@ packages:
       type-fest: 0.13.1
     dev: false
 
-  /tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-    dev: false
-
   /tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
     dependencies:
@@ -5569,11 +5511,6 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-
-  /uuid@9.0.0:
-    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
-    hasBin: true
-    dev: false
 
   /uvu@0.5.6:
     resolution: {integrity: sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==}
