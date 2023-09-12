@@ -21,6 +21,7 @@
 		"@react-email/render": "^0.0.7",
 		"@types/react": "^18.0.21",
 		"@types/react-dom": "^18.0.6",
+		"@vercel/og": "^0.5.13",
 		"astro": "^3.0.7",
 		"astro-icon": "^0.8.1",
 		"react": "^18.0.0",
