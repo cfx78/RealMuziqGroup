@@ -5,7 +5,7 @@ import { Resend } from 'resend';
 import emailTemplate from '../../emails/index.tsx';
 
 export const POST: APIRoute = async ({ request }) => {
-	const resend = new Resend('re_hwDjvfUQ_M8dzxkVjzkeruBspXiqfQTKh');
+	const resend = new Resend('re_15LmK1tG_8hDQLYUJa6BH5xLJfuo3APWE');
 	const data = await request.formData();
 	const name = data.get('name') as string;
 	const email = data.get('email') as string;
@@ -22,7 +22,7 @@ export const POST: APIRoute = async ({ request }) => {
 	// Do something with the data, then return a success response
 	resend.emails.send({
 		from: 'onboarding@resend.dev',
-		to: 'cortez.foxx@icloud.com',
+		to: 'realmuziqgroup@gmail.com',
 		subject: 'New Message From Real Muziq Website',
 		react: emailTemplate({ name, email, message }),
 	});

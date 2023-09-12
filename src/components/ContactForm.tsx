@@ -1,7 +1,6 @@
 // Date: 09/08/21
 
 import { useState, type FormEventHandler, type FormEvent } from 'react';
-import { useForm } from 'react-hook-form';
 
 import Email from '../emails';
 
@@ -9,14 +8,6 @@ export default function Form() {
 	const [nameChecker, setNameChecker] = useState(false);
 	const [emailChecker, setEmailChecker] = useState(false);
 	const [messageChecker, setMessageChecker] = useState(false);
-
-	const {
-		register,
-		handleSubmit,
-		watch,
-		formState: { errors },
-	} = useForm({});
-	console.log(watch());
 
 	const [responseMessage, setResponseMessage] = useState('');
 
@@ -54,8 +45,8 @@ export default function Form() {
 	};
 
 	return (
-		<div className='flex flex-col w-full lg:flex-row bg-base-300 mb-24'>
-			<div className='grid flex-grow h-full card bg-base-300 rounded-box place-items-center py-6'>
+		<div className='flex flex-col w-full lg:flex-row bg-base-300 mb-24 '>
+			<div className='grid flex-grow h-full card bg-base-300 rounded-box place-items-center py-6 border-2  lg:pb-48'>
 				<h1 className='card-title text-2xl'>Real Muziq Contacts</h1>
 				<div className='space-y-8 pt-6 lg:pt-11'>
 					<p className='text-xl '>
@@ -70,7 +61,7 @@ export default function Form() {
 				</div>
 			</div>
 			<div className='divider bg-base-100 lg:divider-horizontal'>OR</div>
-			<div className='grid flex-grow h-fit card bg-base-300 rounded-box place-items-center py-6'>
+			<div className='grid flex-grow h-fit card bg-base-300 rounded-box place-items-center py-6 border-2'>
 				<form onSubmit={submit}>
 					<h1 className='card-title text-2xl'>Contact Us</h1>
 					<div className='form-control'>
@@ -130,11 +121,15 @@ export default function Form() {
 							submit
 						</button>
 					</div>
-					{responseMessage && (
-						<div className='toast  toast-end pb-32'>
-							<div className='alert alert-success'>
-								<span>{responseMessage}</span>
-							</div>
+					{responseMessage === 'Success!' && (
+						<div className='mt-2'>
+							<p className='text-xs max-w-xs text-success mt-2'>
+								Your message has been sent successfully. We will
+								get back to you soon. Thank you!
+								<a href='/' className='btn btn-block mt-1'>
+									Home page
+								</a>
+							</p>
 						</div>
 					)}
 				</form>
