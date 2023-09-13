@@ -2,6 +2,8 @@
 import ArtistCard from "../components/ArtistCard.astro";
 import MainLayout from "../layouts/main-layout.astro";
 
+
+
 export const prerender = true;
 ---
 
@@ -10,35 +12,35 @@ export const prerender = true;
     <h1 class="text-center text-6xl pt-10 mb-10 md:pt-48 md:mb-28 md:text-7xl " >The Real Muziq Family</h1>
     <div class="carousel w-full flex">
     <div id="mtee" class="carousel-item relative w-full">
-      <ArtistCard avatar="../../src/images/mtee.jpg" name="MTee" title="Artist" logo="bg-rmg-logo" facebook="https://www.facebook.com/mario.kenyata.taylor" instagram="https://www.instagram.com/mteetaylor/" tiktok="https://www.tiktok.com/@mteetaylor870" twitter="https://twitter.com/i/flow/login?redirect_after_login=%2Fmteetaylor" youtube="https://www.youtube.com/channel/UC2JAKuVrWB6ns5qw_6dXUmQ" spotify="https://open.spotify.com/artist/1nW44pBv3rPmyfW3fd3pm2" appleMusic="https://music.apple.com/us/artist/mtee-taylor/1481915107" />
+      <ArtistCard avatar='src/images/mtee.png' name="MTee" title="Artist" logo="bg-rmg-logo" facebook="https://www.facebook.com/mario.kenyata.taylor" instagram="https://www.instagram.com/mteetaylor/" tiktok="https://www.tiktok.com/@mteetaylor870" twitter="https://twitter.com/i/flow/login?redirect_after_login=%2Fmteetaylor" youtube="https://www.youtube.com/channel/UC2JAKuVrWB6ns5qw_6dXUmQ" spotify="https://open.spotify.com/artist/1nW44pBv3rPmyfW3fd3pm2" appleMusic="https://music.apple.com/us/artist/mtee-taylor/1481915107" />
        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#cocoa" class="btn btn-circle">❮</a>
         <a href="#juwop" class="btn btn-circle">❯</a>
       </div>
     </div>
     <div id="juwop" class="carousel-item relative w-full">
-      <ArtistCard avatar="../../src/images/wop.png" name="Juwop" title="Producer" logo="bg-rmg-logo" facebook="https://www.facebook.com/brandon.pickens.92?mibextid=LQQJ4d" instagram="https://instagram.com/juwop28?igshid=MzRlODBiNWFlZA==" />
+      <ArtistCard avatar='src/images/wop.png' name="Juwop" title="Producer" logo="bg-rmg-logo" facebook="https://www.facebook.com/brandon.pickens.92?mibextid=LQQJ4d" instagram="https://instagram.com/juwop28?igshid=MzRlODBiNWFlZA==" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#mtee" class="btn btn-circle">❮</a>
         <a href="#ocho" class="btn btn-circle">❯</a>
       </div>
     </div>
     <div id="ocho" class="carousel-item relative w-full">
-      <ArtistCard avatar="src/images/ocho.png" name="Ocho From60" title="Artist" logo="bg-rmg-logo" />
+      <ArtistCard avatar='src/images/ocho.png' name="Ocho From60" title="Artist" logo="bg-rmg-logo" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#juwop" class="btn btn-circle">❮</a>
         <a href="#funto" class="btn btn-circle">❯</a>
       </div>
     </div>
     <div id="funto" class="carousel-item relative w-full">
-      <ArtistCard avatar="../../src/images/funto.jpeg" name="Funto" title="Producer" logo="bg-rmg-logo" instagram="https://instagram.com/funtobeats?igshid=MzRlODBiNWFlZA==" />
+      <ArtistCard avatar='src/images/funto.png' name="Funto" title="Producer" logo="bg-rmg-logo" instagram="https://instagram.com/funtobeats?igshid=MzRlODBiNWFlZA==" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#ocho" class="btn btn-circle">❮</a>
         <a href="#cocoa" class="btn btn-circle">❯</a>
       </div>
     </div>
     <div id="cocoa" class="carousel-item relative w-full">
-      <ArtistCard avatar="../../src/images/cc.png" name="Cocoa" title="Artist" logo="bg-rmg-gospel" facebook="https://www.facebook.com/latora.denisespringer?mibextid=LQQJ4d " instagram="https://instagram.com/cocoaparnell?igshid=MzRlODBiNWFlZA==" />
+      <ArtistCard avatar='src/images/cc.png' name="Cocoa" title="Artist" logo="bg-rmg-gospel" facebook="https://www.facebook.com/latora.denisespringer?mibextid=LQQJ4d " instagram="https://instagram.com/cocoaparnell?igshid=MzRlODBiNWFlZA==" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#funto" class="btn btn-circle">❮</a>
         <a href="#mtee" class="btn btn-circle">❯</a>
