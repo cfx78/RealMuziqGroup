@@ -1,5 +1,4 @@
 import { ImageResponse } from '@vercel/og';
-import { Image } from 'astro:assets';
 
 export const config = {
 	runtime: 'edge',
@@ -7,7 +6,7 @@ export const config = {
 
 export default async function handler() {
 	const imageData = await fetch(
-		new URL('/Real_Muziq_Group_Logo_Black.png', import.meta.url),
+		new URL('public/favicon.svg', import.meta.url),
 	).then((res) => res.arrayBuffer());
 	return new ImageResponse(
 		(
@@ -21,7 +20,7 @@ export default async function handler() {
 					justifyContent: 'center',
 					alignItems: 'center',
 				}}>
-				<Image width='256' height='256' src={imageData} />
+				<img width='256' height='256' src={imageData} />
 			</div>
 		),
 		{
