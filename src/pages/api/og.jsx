@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler() {
 	const imageData = await fetch(
-		new URL('public/favicon.svg', import.meta.url),
+		new URL('./favicon.svg', import.meta.url),
 	).then((res) => res.arrayBuffer());
 	return new ImageResponse(
 		(
