@@ -1,6 +1,7 @@
 ---
 const {title, avatar,name, facebook, instagram, tiktok, twitter, youtube, spotify, appleMusic, logo } = Astro.props
 import {Sprite} from 'astro-icon'
+import { Image } from 'astro:assets';
 ---
 
 
@@ -8,7 +9,7 @@ import {Sprite} from 'astro-icon'
   <div class="card-body">
     <h2 class="card-title"><div class="avatar">
   <div class="w-24 md:w-52 rounded-full ">
-    <img src={avatar} />
+    <Image src={avatar} alt="real-muziq-logo" width='500' height={500/2} />
   </div>
 </div><span class="text-5xl w-full pr-52 text-center">{name}</span></h2>
     <div class="w-full text-3xl text-center pb-4">{title} </div>
