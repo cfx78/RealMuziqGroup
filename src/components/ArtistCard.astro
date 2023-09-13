@@ -9,7 +9,7 @@ import { Image } from 'astro:assets';
   <div class="card-body">
     <h2 class="card-title"><div class="avatar">
   <div class="w-24 md:w-52 rounded-full ">
-    <Image src={avatar as string} alt="real-muziq-logo" width='500' height={500/2} />
+    <Image src={avatar} alt={name} width={500} height={500} />
   </div>
 </div><span class="text-5xl w-full pr-52 text-center">{name}</span></h2>
     <div class="w-full text-3xl text-center pb-4">{title} </div>
