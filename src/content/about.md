@@ -4,19 +4,19 @@ title: 'about'
 
 # About Us
 
-Welcome to **Real Musiq Group**, an independent rap and R&B record label that's been making waves in the music industry since its inception in 2020. We are more than just a label; we are a creative hub, a home for artists seeking to break boundaries, and a haven for music lovers looking for fresh, innovative sounds.
+Welcome to **Real Musiq Group**, an independent record label that's been making waves in the music industry since its inception in August of 2019. Created for artists by artist we are more than just a label we are a creative hub, a home for artists seeking to break boundaries, and a haven for music lovers looking for fresh, innovative sounds. RMG focuses on nurturing artists of all genres through the power of collaboration networking & partnerships.
 
 ## Our Journey
 
-**Real Musiq Group** was born out of a passion for music and a desire to provide a platform for emerging talent. Our journey began with a vision to create a space where artists could thrive, experiment, and grow as true musical innovators. Since then, we've been on a mission to discover, nurture, and elevate exceptional talent from the rap and R&B genres.
+**Real Musiq Group** was born out of a passion for music and a desire to provide a platform for emerging talent. Our journey began with a vision to create a space where artists could thrive, experiment, and grow as true musical innovators. Since then, we've been on a mission to discover, nurture, and elevate exceptional talent from all genres.
 
 ## Our Artists
 
-Our roster boasts a diverse range of exceptionally talented artists who bring their unique stories and experiences to the forefront of their music. We believe that music should be a reflection of the artist's soul, and our commitment to artistic freedom has allowed our talents to push the boundaries of rap and R&B, creating a signature sound that resonates with listeners worldwide.
+Our roster boasts a diverse range of exceptionally talented artists who bring their unique stories and experiences to the forefront of their music.We believe that music should be a reflection of the artist's soul, and our commitment to artistic freedom has allowed our talents to push the boundaries of Rap and R&B, creating a signature sound that resonates with listeners worldwide.
 
 ## Real Musiq Studios
 
-At **Real Musiq Group**, we understand that the recording process is a critical part of an artist's journey. That's why we've established **Real Musiq Studios**, a state-of-the-art recording facility available for booking. Our studio is equipped with the latest recording technology and is designed to provide the perfect environment for artists to bring their visions to life. Whether you're a seasoned artist or just starting out, **Real Musiq Studios** is the ideal place to craft your sound and elevate your music to the next level.
+At **Real Muziq Group**, we understand that the recording process is a critical part of an artist's journey. That's why we've established **Real Muziq Studios**, a state-of-the-art recording facility available for booking. Our studio is equipped with the latest recording technology and is designed to provide the perfect environment for artists to bring their visions to life. Whether you're a seasoned artist or just starting out, **Real Muziq Studios** is the ideal place to craft your sound and elevate your music to the next level.
 
 ### Studio Features:
 
@@ -32,4 +32,4 @@ At **Real Musiq Group**, we understand that the recording process is a critical 
 
 We are not just a record label; we are a family that believes in the power of music to inspire, connect, and change lives. If you're an artist looking for a supportive and innovative home, or if you're a music lover seeking fresh sounds that challenge the norm, then **Real Musiq Group** is where you belong.
 
-Join us on this musical journey as we continue to elevate the world of rap and R&B, one song at a time. Explore our artist profiles, listen to our tracks, and get in touch to book a session at **Real Musiq Studios**. Together, we'll rise to new heights in the world of music.
+Join us on this musical journey as we continue to elevate the world of music, one song at a time. Explore our artist profiles, listen to our tracks, and get in touch to book a session at **Real Musiq Studios**. Together, we'll rise to new heights in the world of music.

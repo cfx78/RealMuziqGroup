@@ -14,6 +14,9 @@ dependencies:
   '@astrojs/vercel':
     specifier: ^4.0.3
     version: 4.0.3(astro@3.0.7)
+  '@fontsource-variable/lexend-deca':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@hookform/resolvers':
     specifier: ^3.3.1
     version: 3.3.1(react-hook-form@7.46.1)
@@ -1048,6 +1051,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/lexend-deca@5.0.8:
+    resolution: {integrity: sha512-umzhec52A6qYSPEGggp7c+zEklRxU9JWMrZH0WxLpjPM7Zh6l+ayuoOny4d2EQcOSYFbGjhrlVCE6REhuYwNAQ==}
+    dev: false
 
   /@hookform/resolvers@3.3.1(react-hook-form@7.46.1):
     resolution: {integrity: sha512-K7KCKRKjymxIB90nHDQ7b9nli474ru99ZbqxiqDAWYsYhOsU3/4qLxW91y+1n04ic13ajjZ66L3aXbNef8PELQ==}

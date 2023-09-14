@@ -2,13 +2,13 @@
 import MainSection from "../components/MainSection.astro";
 import MainLayout from "../layouts/main-layout.astro";
 import { Image } from "astro:assets";
-import logo from '../../src/images/Real_Muziq_Group_Logo_White.png'
+import logo from '../../src/images/Real_Muziq_Group_Logo.png'
 
 export const prerender = true;
 ---
 <MainLayout>
 <MainSection bgImg="bg-rmg-logo" >
-<Image src={logo} alt="real-muziq-logo" width='500' height={500/2} />
+    <Image src={logo} alt="real-muziq-logo" width='500' height={500/2} class='my-auto pb-20'/>
 </MainSection>
 <MainSection bgImg="bg-t_o" >
     <h2 class="text-6xl" >About</h2>
