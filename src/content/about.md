@@ -4,11 +4,11 @@ title: 'about'
 
 # About Us
 
-Welcome to **Real Musiq Group**, an independent record label that's been making waves in the music industry since its inception in August of 2019. Created for artists by artist we are more than just a label we are a creative hub, a home for artists seeking to break boundaries, and a haven for music lovers looking for fresh, innovative sounds. RMG focuses on nurturing artists of all genres through the power of collaboration networking & partnerships.
+Welcome to **Real Muziq Group**, an independent record label that's been making waves in the music industry since its inception in August of 2019. Created for artists by artist we are more than just a label we are a creative hub, a home for artists seeking to break boundaries, and a haven for music lovers looking for fresh, innovative sounds. RMG focuses on nurturing artists of all genres through the power of collaboration networking & partnerships.
 
 ## Our Journey
 
-**Real Musiq Group** was born out of a passion for music and a desire to provide a platform for emerging talent. Our journey began with a vision to create a space where artists could thrive, experiment, and grow as true musical innovators. Since then, we've been on a mission to discover, nurture, and elevate exceptional talent from all genres.
+**Real Muziq Group** was born out of a passion for music and a desire to provide a platform for emerging talent. Our journey began with a vision to create a space where artists could thrive, experiment, and grow as true musical innovators. Since then, we've been on a mission to discover, nurture, and elevate exceptional talent from all genres.
 
 ## Our Artists
 
@@ -32,4 +32,4 @@ At **Real Muziq Group**, we understand that the recording process is a critical 
 
 We are not just a record label; we are a family that believes in the power of music to inspire, connect, and change lives. If you're an artist looking for a supportive and innovative home, or if you're a music lover seeking fresh sounds that challenge the norm, then **Real Musiq Group** is where you belong.
 
-Join us on this musical journey as we continue to elevate the world of music, one song at a time. Explore our artist profiles, listen to our tracks, and get in touch to book a session at **Real Musiq Studios**. Together, we'll rise to new heights in the world of music.
+Join us on this musical journey as we continue to elevate the world of music, one song at a time. Explore our artist profiles, listen to our tracks, and get in touch to book a session at **Real Muziq Studios**. Together, we'll rise to new heights in the world of music.
