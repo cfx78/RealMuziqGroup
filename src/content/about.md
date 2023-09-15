@@ -12,9 +12,9 @@ Welcome to **Real Muziq Group**, an independent record label that's been making 
 
 ## Our Artists
 
-Our roster boasts a diverse range of exceptionally talented artists who bring their unique stories and experiences to the forefront of their music.We believe that music should be a reflection of the artist's soul, and our commitment to artistic freedom has allowed our talents to push the boundaries of Rap and R&B, creating a signature sound that resonates with listeners worldwide.
+Our roster boasts a diverse range of exceptionally talented artists who bring their unique stories and experiences to the forefront of their music. We believe that music should be a reflection of the artist's soul, and our commitment to artistic freedom has allowed our talents to push the boundaries of Rap and R&B, creating a signature sound that resonates with listeners worldwide.
 
-## Real Musiq Studios
+## Real Muziq Studios
 
 At **Real Muziq Group**, we understand that the recording process is a critical part of an artist's journey. That's why we've established **Real Muziq Studios**, a state-of-the-art recording facility available for booking. Our studio is equipped with the latest recording technology and is designed to provide the perfect environment for artists to bring their visions to life. Whether you're a seasoned artist or just starting out, **Real Muziq Studios** is the ideal place to craft your sound and elevate your music to the next level.
 
@@ -28,8 +28,8 @@ At **Real Muziq Group**, we understand that the recording process is a critical 
 
 -   **Production Assistance:** In addition to recording, our studio offers production assistance, helping you refine your tracks and add that professional touch.
 
-## Join the Real Musiq Family
+## Join the Real Muziq Family
 
-We are not just a record label; we are a family that believes in the power of music to inspire, connect, and change lives. If you're an artist looking for a supportive and innovative home, or if you're a music lover seeking fresh sounds that challenge the norm, then **Real Musiq Group** is where you belong.
+We are not just a record label; we are a family that believes in the power of music to inspire, connect, and change lives. If you're an artist looking for a supportive and innovative home, or if you're a music lover seeking fresh sounds that challenge the norm, then **Real Muziq Group** is where you belong.
 
 Join us on this musical journey as we continue to elevate the world of music, one song at a time. Explore our artist profiles, listen to our tracks, and get in touch to book a session at **Real Muziq Studios**. Together, we'll rise to new heights in the world of music.
