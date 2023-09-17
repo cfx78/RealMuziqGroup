@@ -3,32 +3,38 @@ import MainSection from "../components/MainSection.astro";
 import MainLayout from "../layouts/main-layout.astro";
 import { Image } from "astro:assets";
 import logo from '../../src/images/Real_Muziq_Group_Logo_White.png'
-import type { fade } from "astro:transitions";
+
+
 
 export const prerender = true;
 ---
 <MainLayout>
 <MainSection bgImg="bg-rmg-logo" >
-    <Image src={logo} alt="real-muziq-logo" width='500' height={500/2} class='my-auto pb-20' />
+
+
+        <Image data-aos="fade-top"
+         data-aos-duration="800" src={logo} alt="real-muziq-logo" width='500' height={500/2} class='my-auto pb-20 '   />
+
 </MainSection>
-<MainSection bgImg="bg-t_o" >
-    <h2 class="text-6xl" >About</h2>
-    <p class="text-2xl text-center">Learn more About Real Muziq Group</p>
-    <a class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/about" transition:name="aboutPage">About Page</a>
+<MainSection bgImg="bg-t_o"  >
+
+    <h2 class="text-6xl" data-aos="slide-left"  data-aos-duration="200" data-aos-delay="1000" >About</h2>
+    <p data-aos="slide-right" data-aos-easing="linear" data-aos-duration="250" data-aos-delay="1000"  class="text-2xl text-center">Learn More About Real Muziq Group</p>
+    <a data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" data-aos-delay="1000"  class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/about" transition:name="aboutPage">About Page</a>
 </MainSection>
 <MainSection bgImg="bg-teezy"  >
-    <h2 class="text-6xl">Artists</h2>
-    <p class="text-2xl text-center">Learn more About Real Muziq Group Artists</p>
-    <a class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/artists" transition:name="rmgFamily">Artists Page</a>
+    <h2 class="text-6xl text-center" data-aos="slide-right" data-aos-easing="linear" data-aos-duration="200">Artists</h2>
+    <p class="text-2xl text-center" data-aos="slide-left" data-aos-easing="linear" data-aos-duration="250">Learn more About Real Muziq Group Artists</p>
+    <a data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/artists" transition:name="rmgFamily">Artists Page</a>
 </MainSection>
 <MainSection bgImg="bg-smoke" >
-    <h2 class="text-6xl">Contact Us</h2>
-    <p class="text-2xl text-center">Reach out to the Real Muziq Group team</p>
-    <a class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/contact" transition:name="contactPage">Contact Page</a>
+    <h2 class="text-6xl text-center" data-aos="slide-left" data-aos-easing="linear" data-aos-duration="200">Contact Us</h2>
+    <p class="text-2xl text-center" data-aos="slide-right" data-aos-easing="linear" data-aos-duration="250">Reach out to the Real Muziq Group team</p>
+    <a data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/contact" transition:name="contactPage">Contact Page</a>
 </MainSection>
 <MainSection bgImg="bg-studio" >
-    <h2 class="text-6xl text-center">Book Studio Session</h2>
-    <p class="text-2xl text-center">Book a studio session at Real Muziq Studios</p>
-    <a class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/studio" transition:name="bookingPage">Booking Page</a>
+    <h2 class="text-6xl text-center" data-aos="slide-right" data-aos-easing="linear" data-aos-duration="200">Book Studio Session</h2>
+    <p class="text-2xl text-center" data-aos="slide-left" data-aos-easing="linear" data-aos-duration="250">Book a studio session at Real Muziq Studios</p>
+    <a data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" class="link link-hover border rounded-md py-4 px-6 hover:bg-white hover:text-black focus:scale-90 transition cursor-pointer text-4xl" href="/studio" transition:name="bookingPage">Booking Page</a>
 </MainSection>
 </MainLayout>

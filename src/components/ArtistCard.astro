@@ -1,42 +1,58 @@
 ---
-const {title, avatar,name, facebook, instagram, tiktok, twitter, youtube, spotify, appleMusic, logo } = Astro.props
+const {title, avatar,name, facebook, instagram, tiktok, twitter, youtube, spotify, appleMusic, logo, soundcloud, beatstars, store } = Astro.props
 import {Sprite} from 'astro-icon'
 import { Image } from 'astro:assets';
+
+
 ---
 
 
-<div class=`card w-full md:max-w-2xl mx-auto bg-base-300 shadow-xl bg-center bg-no-repeat bg-contain bg-blend-overlay ${logo} border-4 rounded-lg`>
+<div  class=`card w-full md:max-w-2xl mx-auto bg-base-300 shadow-xl bg-center bg-no-repeat bg-contain bg-blend-overlay ${logo} border-4 rounded-lg`>
   <div class="card-body">
     <h2 class="card-title"><div class="avatar">
   <div class="w-24 md:w-52 rounded-full ">
     <Image src={avatar} alt={name} width={500} height={500} />
   </div>
-</div><span class="text-5xl w-full pr-52 text-center">{name}</span></h2>
-    <div class="w-full text-3xl text-center pb-4">{title} </div>
-    <div class="card-actions justify-center gap-x-6">
+</div><span class="text-5xl w-full pr-52 text-center">{name}<div class="w-full text-3xl text-center pt-4 underline">{title} </div></span></h2>
+    <!-- <div class="w-full text-3xl text-center pb-4">{title} </div> -->
+    <div class="card-actions justify-center items-center gap-x-6">
 
         <Sprite.Provider>
             {facebook?  <a target="_blank" href={facebook}>
                 <Sprite name="simple-icons:facebook" class="h-6 w-6"  />
             </a> : '' }
+
             {instagram?  <a target="_blank" href={instagram}>
                 <Sprite name="simple-icons:instagram" class="h-6 w-6" />
             </a>: '' }
+
             {tiktok?  <a target="_blank" href={tiktok}>
                 <Sprite name="simple-icons:tiktok" class="h-6 w-6"  />
-            </a> : '' }
+  </a> : '' }
+
             {twitter?  <a target="_blank" href={twitter}>
                 <Sprite name="simple-icons:twitter" class="h-6 w-6"  />
             </a> : '' }
+
             {youtube?  <a target="_blank" href={youtube}>
                 <Sprite name="simple-icons:youtube" class="h-6 w-6"  />
             </a>: '' }
+
             {spotify?  <a target="_blank" href={spotify}>
                 <Sprite name="simple-icons:spotify" class="h-6 w-6"  />
             </a> : '' }
+
             {appleMusic?  <a target="_blank" href={appleMusic}>
                 <Sprite name="simple-icons:applemusic" class="h-6 w-6"  />
             </a> : '' }
+
+            {soundcloud?  <a target="_blank" href={soundcloud}>
+                <Sprite name="simple-icons:soundcloud" class="h-8 w-8"  /> </a> : ''}
+            {beatstars?  <a target="_blank" href={beatstars}>
+                <img src='/src/icons/beatstars.svg' class="h-12 w-12"  /> </a> : ''}
+            {store?  <a target="_blank" href={store}>
+                <Sprite name="simple-icons:homeassistantcommunitystore" class="h-6 w-6"  /> </a> : ''}
+
         </Sprite.Provider>
 
     </div>
