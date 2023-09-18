@@ -7,6 +7,7 @@ import MainLayout from "../layouts/main-layout.astro";
   import funto from "../images/funto.png";
   import cc from "../images/cc.png";
 import dave from "../images/Dave.png";
+import josh from "../images/josh.png";
 
 export const prerender = true;
 ---
@@ -18,7 +19,7 @@ export const prerender = true;
     <div id="mtee" class="carousel-item relative w-full">
       <ArtistCard avatar={mtee} name="MTee Taylor" title="Artist" logo="bg-rmg-logo" facebook="https://www.facebook.com/mario.kenyata.taylor" instagram="https://www.instagram.com/mteetaylor/" tiktok="https://www.tiktok.com/@mteetaylor870" twitter="https://twitter.com/i/flow/login?redirect_after_login=%2Fmteetaylor" youtube="https://www.youtube.com/channel/UC2JAKuVrWB6ns5qw_6dXUmQ" spotify="https://open.spotify.com/artist/1nW44pBv3rPmyfW3fd3pm2" appleMusic="https://music.apple.com/us/artist/mtee-taylor/1481915107" />
        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#dave" class="btn btn-circle">❮</a>
+        <a href="#josh" class="btn btn-circle">❮</a>
         <a href="#juwop" class="btn btn-circle">❯</a>
       </div>
     </div>
@@ -44,7 +45,7 @@ export const prerender = true;
       </div>
     </div>
     <div id="cocoa" class="carousel-item relative w-full">
-      <ArtistCard avatar={cc} name="Cocoa Parnell" title="Artist" logo="bg-rmg-gospel" facebook="https://www.facebook.com/latora.denisespringer?mibextid=LQQJ4d " instagram="https://instagram.com/cocoaparnell?igshid=MzRlODBiNWFlZA==" />
+      <ArtistCard avatar={cc} name="Cocoa Parnell" title="Artist" logo="bg-rmg-gospel" facebook="https://www.facebook.com/latora.denisespringer?mibextid=LQQJ4d " instagram="https://instagram.com/cocoaparnell?igshid=MzRlODBiNWFlZA==" youtube="https://youtube.com/@cocoaparnell5313?si=PKYGv03wfqDKsHQK" spotify="https://spotify.link/B5hCb1mMbDb" appleMusic="https://music.apple.com/us/artist/cocoa-parnell/1630693801" />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#funto" class="btn btn-circle">❮</a>
         <a href="#dave" class="btn btn-circle">❯</a>
@@ -54,6 +55,13 @@ export const prerender = true;
       <ArtistCard avatar={dave} name="Mcdaveid" title="Artist/ Producer" logo="bg-rmg-logo" instagram="https://instagram.com/mcdaveid" beatstars="https://player.beatstars.com/?storeId=131032" youtube="https://www.youtube.com/channel/UCP5b0R7QZ2t9jqLDDT1_uKQ" spotify="https://open.spotify.com/artist/3n8OoD9JRlDhMnPLmheedx?si=awCGLLNoROO-1BUtfMmSIQ&nd=1" soundcloud="https://soundcloud.com/user-483083763-3132336" facebook="https://www.facebook.com/daveid15666?ref=hl" tiktok="https://www.tiktok.com/@mcdaveid" store="https://mc-daveid-merchshop.myspreadshop.net/"  />
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a href="#cocoa" class="btn btn-circle">❮</a>
+        <a href="#josh" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="josh" class="carousel-item relative w-full">
+      <ArtistCard avatar={josh} name="Josh Vinson" title="PublicRelationsManager" logo="bg-rmg-logo" instagram="https://instagram.com/realmuziqjosh?igshid=MzRlODBiNWFlZA==" />
+       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#dave" class="btn btn-circle">❮</a>
         <a href="#mtee" class="btn btn-circle">❯</a>
       </div>
     </div>
