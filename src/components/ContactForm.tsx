@@ -46,8 +46,8 @@ export default function Form() {
 
 	return (
 		<div className='flex-col justify-center items-center'>
-			<div className='flex flex-col w-full lg:flex-row bg-base-300 mb-24 '>
-				<div className='grid flex-grow h-full card bg-base-300 rounded-box place-items-center py-6 border-2 lg:pb-48 px-6'>
+			<div className='flex flex-col w-full lg:flex-row bg-base-300 mb-24 border-2 '>
+				<div className='grid flex-grow h-full card bg-base-300 rounded-box place-items-center py-6  lg:pb-48 px-6'>
 					<h1 className='card-title text-2xl'>Real Muziq Contacts</h1>
 					<div className='space-y-8 pt-6 lg:pt-10'>
 						<p className='text-xl '>
@@ -56,15 +56,12 @@ export default function Form() {
 						<p className='text-xl'>
 							<strong>Phone:</strong> 901-215-4220
 						</p>
-						<p className='text-xl'>
-							<strong>Studio Address:</strong> 123, Nairobi, Kenya
-						</p>
 					</div>
 				</div>
 				<div className='divider bg-base-100 lg:divider-horizontal'>
 					OR
 				</div>
-				<div className='grid flex-grow h-fit card bg-base-300 rounded-box place-items-center py-6  border-2'>
+				<div className='grid flex-grow h-fit card bg-base-300 rounded-box place-items-center py-6  '>
 					<form className='px-12' onSubmit={submit}>
 						<h1 className='card-title text-2xl'>Contact Us</h1>
 						<div className='form-control'>
